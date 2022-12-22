@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: devop-test-ns
+
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: devop-poc-sa
+  namespace: devop-test-ns
