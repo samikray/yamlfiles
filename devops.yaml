@@ -7,5 +7,5 @@ metadata:
 apiVersion: v1
 kind: ServiceAccount
 metadata:
-  name: devop-poc-sa
+  name: devops-poc-sa
   namespace: devop-test-ns
